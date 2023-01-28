@@ -1,0 +1,118 @@
+ /* for desktop */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+
+/* navber style start here */
+
+ .nav_logo{
+    text-align: left;
+ }
+ .nav_heading{
+    text-align: right;
+
+ }
+
+ .nav_item{
+    flex-direction: row;
+    justify-content: flex-end;
+ }
+ .nav_item a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+ }
+/* navber style end here */
+
+/* profile style start here */
+.profile .top-weather{
+   right: 100px;
+   width: 120px;
+   transform: width 2s, transform 2s;
+
+}
+.profile .top-weather:hover{
+   width: 140px;
+}
+
+.profile .bottom-weather{
+   left: 140px;
+   width: 120px;
+   transform: width 2s, transform 2s;
+
+}
+.profile .bottom-weather:hover{
+   width: 140px;
+}
+.profile-dese p{
+   color: gray;
+   text-align: center;
+   width: 50%;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   
+}
+
+/* profile style end here */
+  /* aboutme style start */
+  .about_me img{
+   margin-top: 100px;
+  }
+  .about_img img{
+   height: 350px;
+   width: 320px;
+  }
+  .about_desc p{
+   text-align: justify;
+  }
+
+
+  /* aboutme style end */
+
+
+  /* contact start from here */
+
+  .contact{
+   padding-right: 50px;
+  }
+
+  .contact-me button{
+ 
+   width: 150px;
+  }
+
+  .icon{
+   position: relative;
+  }
+  .meadia_buttons{
+   position: absolute;
+   margin-top: 200px;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+  }
+  
+  /* contact end from here */
+
+  /* footer start from here  */
+
+  .footer-menu {
+   margin-top: 12px;
+  }
+  .footer-menu a{
+   display: inline;
+   margin: 10px;
+   
+  }
+
+  /* footer end from here  */
